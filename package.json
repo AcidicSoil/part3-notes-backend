@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production NODE_ENV=production node index.js",
-    "dev": "cross-env NODE_ENV=development NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
     "build:ui": "rm -rf dist && cd ../rendering-collections && npm run build && cp -r dist ../part3-notes-backend-part4-2",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
     "logs:prod": "render logs",
