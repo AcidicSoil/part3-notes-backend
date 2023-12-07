@@ -19,7 +19,9 @@
     "mongoose": "^7.6.5"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8.32.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
   }
 }
